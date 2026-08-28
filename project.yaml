@@ -1,0 +1,74 @@
+# .project metadata for Contour
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "contour"
+name: "Contour"
+description: "Contour is an open source Kubernetes ingress controller providing the control plane for the Envoy edge and service proxy"
+type: "project"
+project_lead: "skriss" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#contour"
+    link: "https://kubernetes.slack.com/messages/contour"
+    primary: true
+
+maturity_log:
+  - phase: "incubating"
+    date: "2020-07-07T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/280" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/projectcontour/contour"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://projectcontour.io"
+
+artwork: "https://landscape.cncf.io/logos/contour.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/projectcontour/contour/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "projectcontour/contour"
+
+social:
+  twitter: "https://twitter.com/projectcontour"
+
+security:
+  policy:
+    path: "https://github.com/projectcontour/contour/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/projectcontour/contour/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/projectcontour/contour/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/projectcontour/contour/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/projectcontour/contour/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/projectcontour/contour/blob/main/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Service Proxy"
+
+# CLOMonitor Score: 85/100
+# Documentation: 95 | License: 75 | Best Practices: 95 | Security: 64
