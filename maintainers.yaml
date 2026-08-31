@@ -9,10 +9,12 @@ maintainers:
     teams:
       - name: "maintainers"
         members:
-          - skriss
           - tsaarni
           - sunjayBhatia
           - pnbrown
+          - clayton-gonsalves
+          - davinci26
+          - izturn
       # Unmanaged teams: teams with "managed: false" are tracked in this
       # file for documentation but are excluded from CNCF resource
       # provisioning (mailing lists, service desk, Copilot seats, etc).
